@@ -54,7 +54,7 @@ def predict(prob_storm, sensitivity, specificity, payout_harvest, payout_no_harv
 
 # with st.echo(code_location='below'):
 
-st.header('STORM PREDICTOR')
+st.header('HARVEST DECISION AND PAYOUT')
 
 chance_of_mold = st.slider(label = "Chance of botrytis ", min_value = 0, max_value = 100, step = 1)
 no_sugar = st.slider(label = "Chance of no sugar", min_value = 0, max_value = 100, step = 1)
